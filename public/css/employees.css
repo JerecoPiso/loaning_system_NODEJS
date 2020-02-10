@@ -1,0 +1,164 @@
+/* for devices less than 767px screen */
+@media(max-width: 767px){
+	#add-employee{
+		background-color: rgb(2,46,146);
+		border: none;
+		border-radius: 2rem;
+		padding: 10px;
+		width: 100%;
+		color: white;
+		margin-top: 2%;
+	}
+	.add-employee-form{
+		height: auto;
+		width: 90%;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		z-index: 1;
+		padding: 1% 5% 3% 5%;
+		border-radius: 2rem;
+		display: none;
+	}
+
+}
+@media(min-width: 768px){
+	#add-employee{
+		background-color: rgb(2,46,146);
+		border: none;
+		border-radius: 2rem;
+		padding: 10px;
+		width: 50%;
+		color: white;
+		margin-top: 2%;
+	}
+	.add-employee-form{
+		height: auto;
+		width: 50%;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		z-index: 1;
+		padding: 1% 5% 3% 5%;
+		border-radius: 2rem;
+		display: none;
+	}
+}
+@media(min-width: 992px){
+	#add-employee{
+		background-color: rgb(2,46,146);
+		border: none;
+		border-radius: 2rem;
+		padding: 10px;
+		width: 23%;
+		color: white;
+		margin-top: 2%;
+	}
+	.add-employee-form{
+		height: auto;
+		width: 30%;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		z-index: 1;
+		padding: 1% 5% 3% 5%;
+		border-radius: 2rem;
+		display: none;
+	}
+}
+/* for devices greater than 767px screen */
+@media(min-width: 1200px){
+	#add-employee{
+
+		background-color: rgb(2,46,146);
+		border: none;
+		border-radius: 2rem;
+		padding: 10px;
+		width: 20%;
+		color: white;
+		margin-top: 2%;	
+	}
+	.add-employee-form{
+		height: auto;
+		width: 30%;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		z-index: 1;
+		padding: 1% 5% 3% 5%;
+		border-radius: 2rem;
+		display: none;
+	}
+
+}
+/* labael for add employee */
+label{
+	color: white;
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+.btn-add-employee{
+	width: 100%;
+	margin-top: 3%;
+	padding: 2% 0 2% 0;
+	border-radius: 2rem;
+	background-color: rgb(50,150,255);
+	border: none;
+	color: white;
+
+}
+form > .form-control{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+}
+form > .form-control:focus{
+	background-color: transparent;
+	color: white;
+}
+.card{
+	overflow: auto;
+	max-height: 480px;
+	padding-bottom: 5%;
+}
+#modalDelete{
+
+	width: 30%;	
+	margin-left: 35%;
+	margin-top: 10%;
+}
+.btn-no, .btn-delete{
+	width: 20%;
+	border: none;
+	color: rgb(255,255,255);
+	padding: 1%;
+}
+.btn-no{
+	margin-left: 30%;
+	background-color: rgb(200,0,0);
+}
+.btn-delete{
+	background-color: rgb(0,0,200);
+}
+.text-delete{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1.8%;
+}
+.modal-body{
+	border: 2px solid rgb(200,0,0), 2px solid rgb(200,0,0);
+}
+#modalUpdate{
+	
+	width: 30%;
+	margin-left: 35%;
+}
+.update-employee > label{
+	color: black;
+}
+.update-employee > input{
+    border: 1px solid rgb(0,0,246);
+    color: black;
+}
+
+.update-employee > input:focus{
+	color: black;
+}

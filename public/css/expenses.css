@@ -1,0 +1,58 @@
+.submit-expenses{
+	width: 100%;
+	border: none;
+	background-color: rgb(2,46,146);
+	letter-spacing: 3px;	
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 2rem;
+	margin-top: 2%;
+}
+.table-expenses{
+	max-height: 500px;
+}
+.card{
+	overflow: auto;
+	max-height: 500px;
+	padding-bottom: 5%;
+}
+#alert{
+	
+	padding: 5px;
+	width: 100%;
+	display: none;
+	border-radius: 2rem;
+	width: 50%;
+	margin: auto;
+
+}
+#deleteExpenses{
+	margin-top: 14%;
+	
+	width: 30%;
+	margin-left: 35%;
+
+}
+.modal-content{
+	width: 75%;
+	margin-left: 15%;
+	margin-top: 30%;
+	border: 1px solid red;
+}
+.yes-delete, .cancel{
+	border: none;
+	width: 20%;
+	color: white;
+}
+.cancel{
+	background-color: rgb(220,0,0);
+	margin-left: 30%;
+}
+.yes-delete{
+	background-color: rgb(0,0,200);
+}
+.p-2{
+	color: red;
+}

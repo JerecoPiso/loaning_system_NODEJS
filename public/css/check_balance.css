@@ -1,0 +1,112 @@
+
+input::placeholder{
+	padding-left: 2%;
+}
+.list-group{
+	position: absolute;
+	z-index: 10;
+	width: 89%;
+}
+.list-group-item{
+	border: 1px solid rgb(2,46,146);
+}
+@media(max-width: 768px){
+	.card{
+	width: 95%;
+	margin: auto;
+	margin-top: 10%;
+	}
+	.card-header{
+		background-color: rgb(2,46,146);
+	}
+	h6{
+		color: rgb(255,255,255);
+		text-transform: uppercase;
+		font-size: 150%;
+	}
+	#balance{
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid black;
+		padding-left: 2%;
+	}
+	#search{
+		width: 85%;
+	}
+}
+@media(min-width: 768px){
+	.card{
+	width: 60%;
+	margin: auto;
+	margin-top: 10%;
+	}
+	.card-header{
+		background-color: rgb(2,46,146);
+	}
+	h6{
+		color: rgb(255,255,255);
+		text-transform: uppercase;
+		font-size: 150%;
+	}
+	#balance{
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid black;
+		padding-left: 2%;
+	}
+	#search{
+		width: 90%;
+	}
+}
+@media(min-width: 992px){
+	.card{
+	width: 60%;
+	margin: auto;
+	margin-top: 10%;
+	}
+	.card-header{
+		background-color: rgb(2,46,146);
+	}
+	h6{
+		color: rgb(255,255,255);
+		text-transform: uppercase;
+		font-size: 150%;
+	}
+	#balance{
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid black;
+		padding-left: 2%;
+	}
+	#search{
+		width: 90%;
+	}
+}
+@media(min-width: 1200px){
+	.card{
+	width: 40%;
+	margin: auto;
+	margin-top: 10%;
+	}
+	.card-header{
+		background-color: rgb(2,46,146);
+	}
+	h6{
+		color: rgb(255,255,255);
+		text-transform: uppercase;
+		font-size: 150%;
+	}
+	#balance{
+		width: 75%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid black;
+		padding-left: 2%;
+	}
+	#search{
+		width: 90%;
+	}
+}

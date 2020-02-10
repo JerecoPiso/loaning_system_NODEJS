@@ -1,0 +1,14 @@
+{{#each results}}
+                          	 	<tr>
+                          	 		<td>{{id}}</td>
+                          	 		<td>{{category}}</td>
+                          	 		<td>{{amount}}</td>
+                          	 		<td>{{date}}</td>
+                          	 		<td>{{spender}}</td>
+                          	 		<td>
+                          	 	 <a href="javascript:void(0);" class="btn btn-sm btn-info edit" data-id="{{ id }}" data-category="{{ category }}" data-amount="{{ amount }}" data-date="{{ date }}" data-spender="{{ spender }}" data-loan="{{ loan }}">Edit</a>
+                        <button type="button" class="btn btn-sm btn-danger delete" data-id="{{id }}">Delete</button>
+                          	 		</td>
+                          	 		
+                          	 	</tr>
+                          	 	{{/each}}

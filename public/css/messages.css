@@ -1,0 +1,91 @@
+.card{
+	max-width: 50%;
+}
+.card-body{
+	width: 100%;
+	max-height: 300px;
+	overflow-x: auto;
+}
+.card-footer{
+	width: 100%;
+}
+#message{
+	width: 75%;
+}
+
+.dp{
+	max-width: 40px;
+	min-width: 40px;
+}
+.receiver{
+	clear: right;
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+}
+.receiver > .dp{
+	clear: right;
+	float: left;
+}
+
+.receiver > .messages{
+	clear: right;
+    float: left;
+    height: auto
+    margin-right: 5%;
+    background-color: dodgerblue;
+    padding: 4%;
+    max-width: 50%;
+    width: auto;
+}
+.messages{
+	color: white;
+	border-radius: 1rem;
+}
+.sender{
+	clear: left;
+	float: right;
+	margin-top: 5%;
+	width: 100%;
+
+}
+.sender > .dp{
+	clear: left;
+	float: right;
+
+}
+.sender > .messages{
+	clear: left;
+    float: right;
+    height: auto
+    margin-right: 5%;
+    background-color: dodgerblue;
+    padding: 4%;
+    max-width: 50%;
+    width: auto;
+
+}
+.fa-comment{
+	margin-left: 3%;
+	font-size: 120%;
+	color: rgb(0,200,0);
+}
+
+.active{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-transform: uppercase;
+	color: white;
+}
+.active-list{
+	width: 60%;
+	margin-left: 40%;
+	margin-top: 2%;
+
+}
+.list-group-item:hover{
+	background-color: rgb(185, 205, 223);
+}
+.chat-box{
+	display: none;
+}

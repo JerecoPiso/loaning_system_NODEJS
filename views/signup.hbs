@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/vendor/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/vendor/css/main.css">
+	<title>Home Page</title>
+
+</head>
+
+<body>
+    <header>
+
+    	 Loaning System 
+
+    </header>
+
+ 
+        <div class="alert alert-danger">
+          {{name}}
+        <form action="/login" method="POST" class="login-form">
+        	 
+    		  <img class="login-img" src="vendor/login.png"><br> 
+        	  <label>Username</label><br>
+        	  <input type="text" name="name" class="login-input" placeholder="Username"><br><br>
+        	  <label>Password</label><br>
+        	  <input type="password" name="password" class="login-input mb-3" placeholder="Password"><br>
+        	  <button class="btn-login mb-4">Log In</button>
+              <a href="/signup">Sign Up</a>
+
+        </form>
+  
+
+    <footer>
+    	All Rights Reserved
+    </footer>
+<script src="/vendor/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="/vendor/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

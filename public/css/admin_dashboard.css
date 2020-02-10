@@ -1,0 +1,139 @@
+.header{
+	background-color: rgb(2,46,146);
+	height: 30%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	margin: 0;
+
+}
+/* header search input*/
+#search-input{
+	width: 75%;
+	margin-top: 1%;
+	border: none;
+	padding-left: 2%;
+	margin-left: 10%;
+}
+#btn-search{
+	border: none;
+	
+}
+/* right side dropdown in the header */
+.btn-profile{
+	
+	border: none;
+	margin-top: 2%;
+	background-color: rgba(0,0,0,0.2);
+	color: rgb(2552,255,255);
+	width: 100%;
+	padding: 5px 0 5px 0;
+	letter-spacing: 2px;
+	padding: 5px;
+}
+#image{
+	width: 40%;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+
+}
+.body-content-row{
+	width: 100%;
+	margin: 0;
+}
+/* side nav links */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(2,46,146);
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: rgba(200,180,150,0.2);
+  color: white;
+  border-radius: 2rem;
+}
+/* card icons */
+.fa-users, .fa-briefcase, .fa-upload{
+	float: right;
+	font-size: 160%;
+}
+/*  title of the page */
+.admin-dashboard{
+	background-color: rgb(82, 144, 251);
+	color: rgb(255,255,255);
+	padding-left: 3%;
+	margin-top: 1%;
+}
+.dashboard-title{
+	letter-spacing: 2px;
+	padding: 10px 0 10px 0;
+	font-size: 180%;
+	color: white;
+}
+.x{
+	float: right;
+	margin-right: 2%;
+}
+.fa{
+	margin-right: 10px;
+}
+.btn-toggler{
+	color: white;
+}
+.dropdown-menu > .dropdown-item:hover{
+	background-color: rgb(2,46,146);
+	color: white;
+}
+.fa-share-square{
+   margin-right: 16%;
+   width: 14px;
+}
+
+#logout > .modal-dialog > .modal-content{
+	margin-top: 40%;
+	width: 70%;
+	margin-left: 15%;
+    border: 2px solid red;
+
+}
+.fa-question{
+	color: rgb(250,0,0);
+}
+.no{
+	margin-left: 20%;
+	width: 30%;
+	background-color: rgb(250,0,0);
+}
+.no, .yes{
+	width: 30%;
+	border: none;
+	padding: 1%;
+
+}
+.yes{
+	background-color: rgb(0,0,200);
+
+}
+.logout{
+	letter-spacing: 2px;
+}
+.result{
+	position: absolute;
+	width: 70%;
+	margin-left: 9%;
+	z-index: 10;
+}

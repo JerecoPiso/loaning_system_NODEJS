@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" type="text/css" href="/vendor/css/main.css">
+	<title>Home Page</title>
+
+</head>
+
+<body>
+    <header>
+
+    	 Loaning System
+
+    </header>
+     
+             <div id="login"  class="login-form">
+  
+                 <h6 class="alert text-center pull-right" id="alert" style=""></h6>
+                  <img class="login-img" src="vendor/images/login2.png"><br> 
+                  <label>Username</label><br>
+                  <input type="text" v-model="loginData.name" class="login-input" placeholder="Username" required><br><br>
+                  <label>Password</label><br>
+                  <input type="password" v-model="loginData.password" class="login-input mb-3" placeholder="Password" required><br><br>
+                  <button  class="btn-login mb-4" @click="loginAdmin()">Log In</button>
+                  <button type="button"  id="signup">Don't have an account?</button>
+
+            </div>
+     
+     
+
+   
+    
+ <footer>
+        All Rights Reserved
+</footer>
+
+<script src="/vendor/bootstrap_vuejs/js/vue.js"></script>
+<script src="/vendor/bootstrap_vuejs/js/axios.js"></script>
+<script src="/vendor/bootstrap_vuejs/js/bootstrap_vue.js"></script>  
+<script type="text/javascript">
+
+  var login = new Vue({
+    el: "#login",
+    data:{
+        msg: '',
+        loginData: {name: '', password: ''}
+
+    },
+    methods: {
+
+          loginAdmin: function(){
+
+            var info = login.toFormData(login.loginData);
+             axios.post("/login", info)
+             //.then(function(response){
+
+              // alert(response.data)
+            //})
+
+          },
+           toFormData: function(obj){
+					var form_data = new FormData();
+					for(var key in obj){
+						form_data.append(key, obj[key]);
+					}
+					return form_data;
+			  },
+          
+    }
+  });
+
+
+</script>
+</body>
+</html>

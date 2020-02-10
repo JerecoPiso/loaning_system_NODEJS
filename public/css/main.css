@@ -1,0 +1,322 @@
+
+.btn-login:hover{
+	opacity: 0.8;
+}
+
+/* for phones less than 768 pixel screen */
+@media(max-width: 767px){
+	/* Log In form design */
+	.login-img{
+		width: 20%;
+		display: block;
+		margin-left: 28%;
+	}
+	.login-form{
+		width: 100%;
+		margin-top: 15%;
+		padding-left: 17%;
+		margin: 0;
+	}
+	label{
+		font-size: 120%;
+		letter-spacing: 3px;
+		margin-left: 5%;
+		font-weight: bold;
+	}
+	.login-input{
+		width: 70%;
+		margin-left: 5%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 2px solid rgb(2,46,146);
+		padding-left: 1%;
+	}
+	input::placeholder{
+		letter-spacing: 2px;
+	}
+	.btn-login{
+		width: 70%;
+		margin-left: 5%;
+		border: none;
+		background-color: rgb(2,46,146);
+		letter-spacing: 3px;	
+		text-transform: uppercase;
+		color: rgb(255,255,255);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 2rem;
+	}
+	footer{
+		/*background-color: rgb(2,46,146);*/
+		background-color: black;
+		color: rgb(255,255,255);
+		text-align: center;
+		font-size: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		letter-spacing: 3px;
+	    margin: 0;
+		width: 100%;
+	}
+}
+/* for tablets */
+@media(min-width: 768px){
+	.login-img{
+		width: 20%;
+		display: block;
+		margin-left: 36.5%;
+	}
+	/* Log In form design */
+	.login-form{
+		width: 100%;
+		margin-left: 13%;
+		margin-top: 25%;
+		margin: 0;
+	}
+	label{
+		font-size: 120%;
+		letter-spacing: 3px;
+		margin-left: 13%;
+		font-weight: bold;
+	}
+	.login-input{
+		width: 70%;
+		margin-left: 13%;
+		margin-right: 2%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 2px solid rgb(2,46,146);
+		padding-left: 1%;
+	}
+	input::placeholder{
+		letter-spacing: 2px;
+	}
+	.btn-login{
+		width: 70%;
+		margin-left: 13%;
+		border: none;
+		background-color: rgb(2,46,146);
+		letter-spacing: 3px;	
+		text-transform: uppercase;
+		color: rgb(255,255,255);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 2rem;
+	}
+	}
+	footer{
+		background-color: rgb(2,46,146);
+		color: rgb(255,255,255);
+		text-align: center;
+		font-size: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		letter-spacing: 3px;
+		bottom: 0;
+		margin: 0;
+		position: fixed;
+		width: 100%;	
+	}
+}
+
+/* for laptops */
+@media(min-width: 992px) and (max-width: 1200px){
+	.login-img{
+		width: 20%;
+		display: block;
+		margin-left: 36.5%;
+	}
+	/* Log In form design */
+	.login-form{
+		
+		width: 20%;
+		margin-left: 25%;
+		margin-top: 10%;
+	}
+	label{
+		font-size: 120%;
+		letter-spacing: 3px;
+		margin-left: 13%;
+		font-weight: bold;
+	}
+	.login-input{
+		width: 70%;
+		margin-left: 13%;
+		margin-right: 2%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 2px solid rgb(2,46,146);
+		padding-left: 1%;
+	}
+	input::placeholder{
+		letter-spacing: 2px;
+	}
+	.btn-login{
+		width: 70%;
+		margin-left: 13%;
+		border: none;
+		background-color: rgb(2,46,146);
+		letter-spacing: 3px;	
+		text-transform: uppercase;
+		color: rgb(255,255,255);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 2rem;
+	}
+	footer{
+		background-color: rgb(2,46,146);
+		color: rgb(255,255,255);
+		text-align: center;
+		font-size: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		letter-spacing: 3px;
+		bottom: 0;
+		margin: 0;
+		position: fixed;
+		width: 100%;
+	}
+}
+/* for big devices */
+@media(min-width: 1200px){
+	.login-img{
+		width: 20%;
+		display: block;
+		margin-left: 36%;
+	}
+	.login-form{
+		
+		width: 40%;
+		margin-left: 30%;
+		margin-top: 3%;
+	}
+	label{
+		font-size: 120%;
+		letter-spacing: 3px;
+		margin-left: 13%;
+		font-weight: bold;
+	}
+	.login-input{
+		width: 70%;
+		height: 30px;
+		margin-left: 13%;
+		margin-right: 2%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 2px solid rgb(2,46,146);
+		padding-left: 1%;
+	}
+	input::placeholder{
+		letter-spacing: 2px;
+	}
+	.btn-login{
+		width: 70%;
+		margin-left: 13%;
+		border: none;
+		background-color: rgb(2,46,146);
+		letter-spacing: 3px;	
+		text-transform: uppercase;
+		color: rgb(255,255,255);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 2rem;
+	}
+	footer{
+		background-color: rgb(2,46,146);
+		color: rgb(255,255,255);
+		text-align: center;
+		font-size: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		letter-spacing: 3px;
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		margin: 0;
+	}
+	#alert{
+		position: absolute;
+		background-color: rgba(200,0,0,0.5);
+		margin-left: 7%;
+		margin-top: 6%;
+		color: rgb(255,255,255);
+		display: none;
+	}
+
+}
+
+/* header or title of the system */
+header{
+
+	background-color: rgb(2,46,146);
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 180%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+	right: 0;
+	
+}
+ #hidden-msg{
+  display: none; 
+
+} 
+#signup{ 
+	margin-left: 13%;
+	font-size: 120%;
+	background-color: transparent; 
+	border: none;
+	color: blue;
+	
+ } 
+ .sign-up-title{
+    font-size:150%;
+     letter-spacing: 3px;
+	
+}
+
+.signup-form{
+	width: 100%;
+	margin-left: 2%;
+	padding-right: 4%;
+	
+	
+}
+.signup-input{
+	width: 90%;
+    /*margin-right: 2%;*/
+    height: 35px;
+	/*background-color: transparent;
+	border: none;
+	border-bottom: 2px solid rgb(2,46,146);*/
+	padding-left: 3%;
+}
+.signup-input:focus{
+	border: 2px solid dodgerblue;
+}
+.signup-btn{
+	width: 100%;
+	border: none;
+	background-color: rgb(2,46,146);
+	letter-spacing: 3px;	
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 2rem;
+}
+.modal-content{
+	margin-top: 25%;
+	border-radius: 2rem;
+	width: 70%;
+	margin-left: 15%;
+	border: 2px solid dodgerblue;
+	
+}
+input::placeholder{
+	font-size: 12px;
+}

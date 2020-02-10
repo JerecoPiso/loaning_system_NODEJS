@@ -1,0 +1,13 @@
+{{#each results}}
+	<tr>
+		<td>{{id}}</td>
+		<td>{{name}}</td>
+		<td>{{position}}</td>
+		<td>{{salary}}</td>
+		<td>{{address}}</td>
+		<td>
+			<a href="javascript:void(0);" class="btn btn-sm btn-info edit" data-id="{{ id }}" data-name="{{ name }}" data-position="{{ position }}"  data-salary="{{ salary }}" data-address="{{ address }}">Edit</a>
+			<a href="javascript:void(0);" class="btn btn-sm btn-danger delete" data-id="{{id }}">Delete</a>
+		</td>
+	</tr>
+{{/each}}
