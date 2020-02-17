@@ -44,9 +44,9 @@ app.post('/insert-messages', (req, res) => {
             var sql_2 = "INSERT INTO messages (chats, date, sender, receiver) VALUES ('"+req.body.chat+"','"+new_date+"','"+req.body.sender+"','"+req.body.receiver+"')";
             conn.query(sql_2 , (error, results) => {
             
-            if(error) throw err;    
+            if(error) throw error;    
                  var sql = "SELECT * FROM messages WHERE  sender='"+req.body.sender+"'AND receiver='"+req.body.receiver+"' OR receiver='"+req.body.sender+"'AND sender='"+req.body.receiver+"' ORDER BY id DESC LIMIT 1";
-                 conn.query(sql ,(err, result) => {
+                 conn.query(sql ,(error, result) => {
                   
                      res.send(result);
                    // console.log(result);

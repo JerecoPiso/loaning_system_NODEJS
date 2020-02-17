@@ -45,7 +45,7 @@ var deleting = require('./js/delete.js');
 //for update 
 var update = require('./js/update.js');
 //for inserting data to database
-var insert = require('./js/insert.js');
+var insert = require('./js/inserts.js');
 
 app.use('/', insert);
 app.use('/', update);

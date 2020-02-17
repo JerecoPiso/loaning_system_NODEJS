@@ -35,11 +35,11 @@ $(document).on('submit', '#myForm' , function(event) {
                 //check if the sender is the user
            			if(res[i].sender == $('#sender').text()){
                         
-                    $('.card-body').append("<div class='sender'><input type='hidden' class='last_id' value='"+res[i].id+"'><img src='/vendor/login.png' class='dp'><div class='messages'>"+res[i].chats+"</div></div><br>")
+                    $('.card-body').append("<div class='sender'><input type='hidden' class='last_id' value='"+res[i].id+"'><img src='vendor/images/login2.png' class='dp'><div class='messages'>"+res[i].chats+"</div></div><br>")
 
            			}else{
 
-           				  $('.card-body').append("<div class='receiver'><input type='hidden' class='last_id' value='"+res[i].id+"'><img src='/vendor/login.png' class='dp'><div class='messages'>"+res[i].chats+"</div></div><br>")
+           				  $('.card-body').append("<div class='receiver'><input type='hidden' class='last_id' value='"+res[i].id+"'><img src='vendor/images/login2.png' class='dp'><div class='messages'>"+res[i].chats+"</div></div><br>")
            			}
            			
            		}
