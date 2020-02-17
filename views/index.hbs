@@ -29,10 +29,6 @@
 
             </div>
      
-     
-
-   
-    
  <footer>
         All Rights Reserved
 </footer>
@@ -55,10 +51,15 @@
 
             var info = login.toFormData(login.loginData);
              axios.post("/login", info)
-             //.then(function(response){
+             .then(function(response){
 
-              // alert(response.data)
-            //})
+               if(response.data == "True"){
+                 window.location.href = "/admin";
+               }else{
+                 alert(response.data)
+               }
+           
+            })
 
           },
            toFormData: function(obj){

@@ -142,12 +142,14 @@ app.post('/login', function(request, response) {
 				request.session.loggedin = true;
 				request.session.username = username;
 				
-				return response.redirect('/admin');
+				//return response.redirect('/admin');
+				response.send("True");
 				
 			} else {
 				//response.send('Incorrect Username and/or Password!');
-				request.session.alert = "Incorrect Username and/or Password!";
-				return response.redirect('/');
+				//request.session.alert = "Incorrect Username and/or Password!";
+				//return response.redirect('/');
+				response.send("False");
 
 			}			
 			response.end();
